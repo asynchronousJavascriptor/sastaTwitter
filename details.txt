@@ -1,0 +1,13 @@
+details of the project
+
+login ***
+register ***
+logout ***
+isloggedin - protected routes ***
+tweet ***
+retweet
+like ***
+edit tweet 
+delete tweet
+show all posts
+profile

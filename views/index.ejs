@@ -1,0 +1,25 @@
+<% include ./partials/header.ejs %>
+
+<link rel="stylesheet" href="../stylesheets/style.css">
+
+<div id="back">
+    <div id="overlay">
+        <div id="left">
+            <img src="https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1782&q=80" alt="">
+        </div>
+        <div id="right">
+            <h2>Create New Account on <br><span>Sasta Twitter</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <form action="/reg" method="post">
+                <input type="text" name="name" placeholder="name">
+                <input type="email" name="email" placeholder="email">
+                <input type="password" name="password" placeholder="password">
+                <input type="username" name="username" placeholder="username">
+                <input type="submit" value="Register as an User">
+                <a href="/login">already have an account ?</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include ./partials/footer.ejs %>

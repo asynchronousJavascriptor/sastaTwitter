@@ -1,0 +1,21 @@
+<% include ./partials/header.ejs %>
+
+  <link rel="stylesheet" href="../stylesheets/login.css">
+
+  <div id="back">
+    <div id="card">
+      <img src="https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-articleLarge-v4.jpg?quality=75&auto=webp&disable=upscale" alt="">
+      <h2>Sasta Twitter Login</h2>
+      <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" value="Login">
+      </form>
+      <a href="/">Register Now</a>
+      <p>you need to register to the app before watching the content read, <a href="#">terms & conditions</a> applied.</p>
+    </div>
+  </div>
+
+
+
+<% include ./partials/footer.ejs %>
